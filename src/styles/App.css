@@ -1,1 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+
+div
+{
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   align-items: center;
+}
+
+
+
+ul
+{
+    width: 100%;
+}
+
+li
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
